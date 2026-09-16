@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- POCO X3 Pro / vayu -->
+
+    <!-- Device tree -->
+    <project
+        name="crdroidandroid/android_device_xiaomi_vayu"
+        path="device/xiaomi/vayu"
+        remote="github"
+        revision="16.0" />
+
+    <!-- SM8150 common device tree -->
+    <project
+        name="crdroidandroid/android_device_xiaomi_sm8150-common"
+        path="device/xiaomi/sm8150-common"
+        remote="github"
+        revision="16.0" />
+
+    <!-- Kernel -->
+    <project
+        name="crdroidandroid/android_kernel_xiaomi_sm8150"
+        path="kernel/xiaomi/sm8150"
+        remote="github"
+        revision="16.0" />
+
+    <!-- Xiaomi vendor -->
+    <project
+        name="crdroidandroid/proprietary_vendor_xiaomi_vayu"
+        path="vendor/xiaomi/vayu"
+        remote="github"
+        revision="16.0" />
+
+    <!-- Xiaomi common vendor -->
+    <project
+        name="crdroidandroid/proprietary_vendor_xiaomi_sm8150-common"
+        path="vendor/xiaomi/sm8150-common"
+        remote="github"
+        revision="16.0" />
+
+</manifest>
