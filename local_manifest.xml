@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Device -->
+    <project
+        name="LineageOS/android_device_xiaomi_vayu"
+        path="device/xiaomi/vayu"
+        remote="github"
+        revision="lineage-23.2" />
+
+    <!-- Vendor -->
+    <project
+        name="xiaomi-sm8150-devs/proprietary_vendor_xiaomi_vayu"
+        path="vendor/xiaomi/vayu"
+        remote="github"
+        revision="lineage-22.2" />
+
+    <!-- SM8150 Common Device -->
+    <project
+        name="Evolution-X-Devices/device_xiaomi_sm8150-common"
+        path="device/xiaomi/sm8150-common"
+        remote="github"
+        revision="bka" />
+
+    <!-- SM8150 Common Vendor -->
+    <project
+        name="Evolution-X-Devices/vendor_xiaomi_sm8150-common"
+        path="vendor/xiaomi/sm8150-common"
+        remote="github"
+        revision="bka" />
+
+    <!-- Kernel -->
+    <project
+        name="Evolution-X-Devices/kernel_xiaomi_sm8150"
+        path="kernel/xiaomi/sm8150"
+        remote="github"
+        revision="bka" />
+
+    <!-- Xiaomi Hardware -->
+    <project
+        name="Evolution-X-Devices/hardware_xiaomi"
+        path="hardware/xiaomi"
+        remote="github"
+        revision="bka" />
+
+</manifest>
